@@ -29,8 +29,7 @@ export const ContactForm = ({addContact}) => {
   };
 
   const onHandleSubmitForm = (values, { resetForm}) => {
-     addContact(values);
-    console.log(values);
+    addContact(values);
     resetForm();
   };
 
